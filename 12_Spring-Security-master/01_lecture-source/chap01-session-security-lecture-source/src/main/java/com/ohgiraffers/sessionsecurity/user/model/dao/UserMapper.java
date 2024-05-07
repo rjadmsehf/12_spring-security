@@ -10,6 +10,5 @@ public interface UserMapper {
 
     int regist(SignupDTO signupDTO);
 
-
     LoginUserDTO findByUsername(String username);
 }
